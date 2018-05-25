@@ -1,4 +1,4 @@
 WooCommerce New Product Badge
 =============================
-x
+xx
 Displays a 'new' badge on WooCommerce products published in the last x days...
