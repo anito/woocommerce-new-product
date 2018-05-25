@@ -1,0 +1,61 @@
+.wc-new-badge {
+    font-size:.75em;
+    line-height: 1em;
+    width: 100px;
+    max-width: 100px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    font-weight: 800;
+    background: #e40002;
+    color: #eee;
+}
+.wc-new-badge.right {
+    transform: rotate(45deg);
+    right: -43px;
+    top: 12px;
+    font-size: 2em;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 160px;
+    max-width: 160px;
+    box-shadow: 0px 1px 7px rgba(0,0,0,.5);
+    text-align: center;
+}
+.wc-new-badge.left {
+    transform: rotate(-45deg);
+    left: -30px;
+    top: 8px;
+    width: 100px;
+    max-width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+@media only screen and (min-width: 769px) {
+    .wc-new-badge {
+        
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+    .wc-new-badge.left {
+        left: -30px;
+        top: 10px;
+        padding-top: .5em;
+        padding-bottom: 1.3em;
+        line-height: 1em !important;
+    }
+    .wc-new-badge.right {
+        right: -30px;
+        top: 10px;
+        padding: .4em 0;
+        line-height: 1em !important;
+    }
+    .onsale ~ .wc-new-badge.right {
+        top: 36px;
+        right: -50px;
+        max-width: 200px !important;
+        width: 200px !important;
+    }
+    
+}
